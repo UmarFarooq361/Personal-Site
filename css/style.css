@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    margin-bottom: 0px;
+}
+h2{
+    color: #11999E;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'merriweather', sans-serif;
+}
+h3{
+    color: #11999E;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'merriweather', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    font-weight: normal;
+    text-align: left;
+}
+hr{
+    border: dotted #c2e0e0 6px;
+    border-bottom: none;
+    width: 7%;
+    margin: 100px auto;
+
+}
+
+.top-div{
+    background-color:#d0eeea;
+    padding-top:100px;
+    position: relative;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color:#8bd4cb;
+    padding: 20px 0;
+
+}
+.top-cloud{
+    position:absolute;
+    top: 90px;
+    right: 280px;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 340px;
+    left: 280px;
+}
+
+.profile{
+    width: 50%;
+    margin: 70px auto;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid ;
+    border-color: #66BFBF ;
+
+}
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: 100px auto;
+}
+.computer-img{
+    width: 25%;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    float: left;
+    padding-right: 30px;
+}
+.chilli-img{
+    width: 25%;
+    float: right ;
+    padding-left: 30px;
+}
+.contact-me{
+    width: 40%;
+    margin:20px auto;
+}
+.contact-me p{
+    text-align: center;
+    margin: 30px auto 40px;
+}
+.btn{
+    background-color: #11999E;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: #25bec4;
+    transition: ease .3s;
+}
+a{
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.copywrite{
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    transition: ease .3s;
+    color: rgb(255, 255, 255);
+}
